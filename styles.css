@@ -1,0 +1,48 @@
+
+body{
+	font-family: sans-serif;
+	font-size: 0.9em;
+	line-height: 1.8;
+	font-weight: normal;
+	background: #f8f9fd;
+	
+}
+.header{
+    text-align: center;
+    font-family: 'Merriweather';
+}
+table{
+    border-collapse: collapse;
+    margin: 25px 100px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.table thead tr{
+    background-color: #3996d3;
+    color: #ffffff;
+    text-align: left;
+}
+.table th, td {
+    padding: 12px 15px;
+}
+
+.table tbody tr{
+    border-bottom: thin solid #dddddd;
+}
+.table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid #3996d3;
+}
+
+tr:hover{
+    color: #009879;
+}
+ pre code{
+    background-color: rgb(93, 92, 92);
+    color: white;
+    padding: 2px;
+    display: block;
+}
